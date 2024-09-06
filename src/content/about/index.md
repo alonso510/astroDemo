@@ -1,23 +1,23 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "We are a Business Consulting Firm Based in San Francisco"
 meta_title: "About"
 image: "/images/author.png"
 draft: false
 
 what_i_do:
-  title: "What I Do"
+  title: "What We Do"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
+  - title: "Strategic Consulting"
+    description: "We provide actionable insights and strategies to help businesses navigate complex market environments and achieve sustainable growth."
   
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
+  - title: "Market Analysis"
+    description: "In-depth market research and data analysis to identify opportunities and challenges, enabling informed decision-making for your business."
   
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
+  - title: "Business Development"
+    description: "Tailored business development strategies designed to expand your market presence and unlock new revenue streams."
 
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+We are a leading business consulting firm with over a decade of experience in transforming companies through innovative solutions and expert advice. Our team specializes in strategic consulting, market analysis, and business development to ensure your business thrives in a competitive landscape.
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+With a proven track record of delivering measurable results, we partner with businesses to identify opportunities, streamline operations, and achieve long-term success.

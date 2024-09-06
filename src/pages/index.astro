@@ -13,10 +13,76 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base>
-  <section class="section">
-    <div class="container">
-      <Posts posts={currentPosts} className="mb-16" />
-      <Pagination currentPage={1} totalPages={totalPages} />
-    </div>
-  </section>
-</Base>
+  <main>
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold mb-4">Transform Your Business with Expert Consulting</h1>
+        <p class="text-xl mb-8">We help businesses grow, innovate, and succeed in today's competitive market.</p>
+        <a href="#contact" class="bg-white text-blue-600 py-2 px-6 rounded-full font-semibold hover:bg-blue-100 transition duration-300">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4">Strategic Planning</h3>
+            <p>Develop comprehensive strategies to achieve your business goals and stay ahead of the competition.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4">Financial Analysis</h3>
+            <p>Get in-depth financial insights and recommendations to optimize your company's financial performance.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4">Operational Efficiency</h3>
+            <p>Streamline your operations and processes to increase productivity and reduce costs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="bg-gray-200 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">About Us</h2>
+        <p class="text-lg mb-8 text-center">With over 20 years of experience, our team of expert consultants has helped hundreds of businesses achieve their goals and reach new heights.</p>
+        <div class="flex justify-center">
+          <a href="/about" class="bg-blue-600 text-white py-2 px-6 rounded-full font-semibold hover:bg-blue-700 transition duration-300">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">What Our Clients Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="italic mb-4">"The insights and strategies provided by this consulting firm have been instrumental in our company's growth. Highly recommended!"</p>
+            <p class="font-semibold">- John Doe, CEO of TechCorp</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="italic mb-4">"Working with this team has transformed our operations and significantly improved our bottom line. Their expertise is unmatched."</p>
+            <p class="font-semibold">- Jane Smith, CFO of GrowthInc</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-600 text-white py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+        <p class="text-lg mb-8 text-center">Ready to take your business to the next level? Contact us today for a free consultation.</p>
+        <!-- Add your contact form component here -->
+        <!-- <ContactForm /> -->
+        <div class="text-center">
+          <p class="mb-2">Email: info@businessconsulting.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+    </section>
+  </main>
